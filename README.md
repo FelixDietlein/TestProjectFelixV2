@@ -15,7 +15,9 @@ For instance, on my computer:
 ff="/Users/fdietlein/Downloads/MutPanningV2-master/"
 
 3.) Compile your source code via the command
-javac -classpath $ff/commons-math3-3.6.1.jar:$ff/jdistlib-0.4.5-bin.jar $ff/*.java
+
+javac -classpath $ff/commons-math3-3.6.1.jar:$ff/jdistlib-0.4.5-bin.jar $ff/\*.java
+
 Alternatively, you can replace all occurrences of $ff with the folder name. For instance, on my computer:
 javac -classpath /Users/fdietlein/Downloads/MutPanningV2-master/commons-math3-3.6.1.jar:/Users/fdietlein/Downloads/MutPanningV2-master/jdistlib-0.4.5-bin.jar /Users/fdietlein/Downloads/MutPanningV2-master/*.java
 This command will compile all Java source code files in the folder $ff (e.g., on my computer /Users/fdietlein/Downloads/MutPanningV2-master/) using the libraries commons-math3-3.6.1.jar and jdistlib-0.4.5-bin.jar, which are passed to the compiler through the classpath argument.
