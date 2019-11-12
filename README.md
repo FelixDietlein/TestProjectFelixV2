@@ -1,12 +1,14 @@
 COMPILATION AND EXECUTION OF THE SOURCE CODE IN THIS REPOSITORY
+
 Precompiled files of the interactive desktop version of MutPanning can be downloaded from www.cancer-genes.org (section "Downloads") as well as the supplement of our paper (Dietlein et al., cf. below). Furthermore, MutPanning can be run as an online module on the GenePattern platform. If you prefer to compile and execute MutPanning from scratch (e.g., to make changes to the source code, to change the memory usage of MutPanning, or to run MutPanning via the command line), please follow the instructions in this section.
 In order to compile the source code on your computer, the Java Development Kit (JDK) needs to be installed. If you are unsure whether JDK is installed on your computer, you can check the java version with the command
+
 java -version
 
 1.) Download the source code on your local computer. Click on "Clone or download" (green button at the top right of this page) and click on "Download ZIP" in the dropdown menu. Unzip the zip file, which creates a folder named "MutPanningV2-master" on your computer.
 2.) On your local computer, open the command line (e.g., Terminal on macOS). Store the folder name where you downloaded the source code in the variable $ff via the command
 
-ff="<folder name>"
+ff="*folder name*"
 
 For instance, on my computer:
 
