@@ -33,6 +33,7 @@ java -Xmx8G -classpath $ff/commons-math3-3.6.1.jar\:$ff/jdistlib-0.4.5-bin.jar\:
 
 Variable $ff contains the folder where you downloaded the source code and was defined in step 2.
 Alternatively, you can replace all occurrences of $ff by the folder name. For instance, on my computer:
+
 java -Xmx8G -classpath /Users/fdietlein/Downloads/MutPanningV2-master/commons-math3-3.6.1.jar\:/Users/fdietlein/Downloads/MutPanningV2-master/jdistlib-0.4.5-bin.jar\:/Users/fdietlein/Downloads/MutPanningV2-master/ MutPanningDesktop
 
 This command executes the class MutPanningDesktop and uses the libraries commons-math3-3.6.1.jar and jdistlib-0.4.5-bin.jar that are passed through the classpath argument. The argument -Xmx8G regulates the memory usage of MutPanning (maximum 8GB). In our tests, this argument worked for all maf files, including large maf files with >10,000 samples. If you process small maf files, you can reduce the memory usage of MutPanning (e.g., -Xmx4G to allocate 4GB). If you use larger maf files than used in our study, you may consider increasing the memory allocated to MutPanning (e.g., -Xmx16G to allocate 16GB). Upon execution of this command, a dialog window will open that guides you through the execution of MutPanning. Upon completion, the dialog window will automatically redirect you to the final results files.
